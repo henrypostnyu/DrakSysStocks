@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "draksysstocks"
+version = "0.1.0"
+description = ""
+authors = ["Henry Post <HenryFBP@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+transformers = "^4.47.0"
+backtrader = "^1.9.78.123"
+yfinance = "^0.2.50"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
